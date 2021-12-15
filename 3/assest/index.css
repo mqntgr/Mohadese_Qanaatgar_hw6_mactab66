@@ -1,0 +1,56 @@
+body {
+    background-color: #f1f1f1;
+}
+.bold-unknown {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 4px;
+}
+
+header {
+    text-align: center;
+}
+/*/////////////////////////////////////////*/
+.container {
+    margin: auto;
+    width: 50%;
+    background-color: white;
+}
+.container2 {
+    border: 1px solid rgb(196, 193, 193);
+    margin-bottom: 3%;
+}
+.container3 {
+    margin: 20px 15px;
+}
+.bottom-card {
+    display: flex;
+    justify-content: space-between;
+    margin:1% 2% 1% 2%;
+}
+button {
+    background-color: white;
+    width: 20%;
+    border-color: gainsboro;
+}
+button:hover {
+    background-color: gray;
+}
+.main-card {
+    background-color: #f1f1f1;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+}
+aside {
+    margin: auto;
+    width: 30%;
+}
+.aside-image {
+    object-fit: cover;
+    /* display: flex; */
+    /* flex-direction: column; */
+    width: 30%;
+    height:30px;
+}
